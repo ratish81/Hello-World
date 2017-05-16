@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     @IBAction func callButton(_ sender: Any) {
         
        tapCount=tapCount+1
-        if tapCount<10 {
+        if tapCount<20 {
             theLabel.text = "Less than 10"
         }
         else{
